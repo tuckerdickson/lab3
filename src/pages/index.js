@@ -3,11 +3,8 @@ import { render } from "react-dom";
 import '../fonts/stylesheet.css';
 import pic from  '../images/default_avatar.png'
 import ryanPortrait from '../images/ryan_portrait.jpg'
-<<<<<<< Updated upstream
 import tuckerPortrait from '../images/tucker_portrait.jpeg'
-=======
 import  cathrynPortrait from '../images/cathrynlyonss.jpeg'
->>>>>>> Stashed changes
 
 const pageheader =
 {
