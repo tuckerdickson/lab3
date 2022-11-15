@@ -2,7 +2,7 @@ import * as React from "react"
 import { render } from "react-dom";
 import '../fonts/stylesheet.css';
 import pic from  '../images/default_avatar.png'
-import ryanPortrait from '../images/ryan_portrat.png'
+import ryanPortrait from '../images/ryan_portrait.jpg'
 
 const pageheader =
 {
@@ -34,7 +34,7 @@ const Ryan =
 {
   name: "Ryan Edwall",
   major: "Electrical Engineering: Computer Track",
-  portrait: pic
+  portrait: ryanPortrait
 }
 
 const groupMembers = [Abigail,Tucker,Cathryn,Ryan]
