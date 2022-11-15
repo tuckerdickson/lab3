@@ -41,6 +41,13 @@ const Ryan =
 
 const groupMembers = [Abigail,Tucker,Cathryn,Ryan]
 
+const imageStyle =
+{
+  borderRadius: "50%",
+  width: "50%",
+  height: "50%"
+}
+
 function MemberList(members)
 {
   return(
@@ -48,7 +55,7 @@ function MemberList(members)
       {
         members.groupMembers.map(memberInfo =>
           <th>
-            <img src = {memberInfo.portrait} width = "50%" height= "50%" alt = {memberInfo.name}></img>
+            <img src = {memberInfo.portrait} style = {imageStyle} alt = {memberInfo.name}></img>
             <p>{memberInfo.name}</p>
             <p>{memberInfo.major}</p>
           </th>
