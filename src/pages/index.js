@@ -2,6 +2,7 @@ import * as React from "react"
 import { render } from "react-dom";
 import '../fonts/stylesheet.css';
 import pic from  '../images/default_avatar.png'
+import ryanPortrait from '../images/ryan_portrat.png'
 
 const pageheader =
 {
