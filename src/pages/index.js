@@ -12,32 +12,31 @@ const Abigail =
 {
   name:"Abigail Bright",
   major:"Electrical Engineering: Computer Track",
-  imgPath: pic
+  portrait: pic
 }
 
 const Tucker =
 {
   name: "Tucker Dickson",
   major:"Computer Science and Engineering",
-  imgPath: pic
+  portrait: pic
 }
 
 const Cathryn =
 {
   name: "Cathryn Lyons",
   major:"Computer Science and Engineering",
-  imgPath: pic
+  portrait: pic
 }
 
 const Ryan =
 {
   name: "Ryan Edwall",
   major: "Electrical Engineering: Computer Track",
-  imgPath: pic
+  portrait: pic
 }
 
 const groupMembers = [Abigail,Tucker,Cathryn,Ryan]
-
 
 function MemberList(members)
 {
@@ -46,7 +45,7 @@ function MemberList(members)
       {
         members.groupMembers.map(memberInfo =>
           <th>
-            <img src = {memberInfo.imgPath} width = "50%" height= "50%"></img>
+            <img src = {memberInfo.portrait} width = "50%" height= "50%" alt = {memberInfo.name}></img>
             <p>{memberInfo.name}</p>
             <p>{memberInfo.major}</p>
           </th>
@@ -58,8 +57,8 @@ function MemberList(members)
 const displayMembers = <MemberList groupMembers = {groupMembers}/>
 const IndexPage = () => {
   return (
-    <main>
-    <h1 style = {pageheader}> Meet Control Alt Elite!</h1>
+    <main style = {pageheader}>
+    <h1> Meet Control Alt Elite!</h1>
     {displayMembers}
     </main>
   )
