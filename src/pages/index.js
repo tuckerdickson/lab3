@@ -1,4 +1,5 @@
 import * as React from "react"
+import { render } from "react-dom";
 import '../fonts/stylesheet.css';
 
 const pageStyles = {
@@ -129,11 +130,28 @@ const pageheader =
   fontFamily: "UbuntuMono",
 }
 
+function MemberList(members)
+{
+  return(
+    <div>
+      {
+        members.names.map(members =>
+          <button>{members}</button>
+          )
+      }
+    </div>
+  )
+}
+
+const groupMembers = ["Abigail","Tucker","Cathryn","Ryan"]
+const element = <MemberList names = {groupMembers}/>
+
 const IndexPage = () => {
   return (
     <main>
 
-    <h1 style = {pageheader}>Control Alt Elite </h1>
+    <h1 style = {pageheader}> Meet Control Alt Elite!</h1>
+    {element}
     </main>
   )
 }
