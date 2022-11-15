@@ -1,6 +1,11 @@
 import * as React from "react"
 import { render } from "react-dom";
+
+//importing stylesheets
 import '../fonts/stylesheet.css';
+import '../css/index.css';
+
+//importing images
 import pic from  '../images/default_avatar.png'
 import ryanPortrait from '../images/ryan_portrait.jpg'
 import tuckerPortrait from '../images/tucker_portrait.jpeg'
