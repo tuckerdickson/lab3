@@ -1,5 +1,11 @@
 .portraitImage
 {
     border-radius: 50%;
-    
+    width:50%;
+    height: 50%;
+}
+.portraitImage:hover
+{
+    opacity: 0.5;
+    /* filter: brightness(50%) */
 }

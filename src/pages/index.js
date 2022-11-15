@@ -9,7 +9,7 @@ import '../css/index.css';
 import pic from  '../images/default_avatar.png'
 import ryanPortrait from '../images/ryan_portrait.jpg'
 import tuckerPortrait from '../images/tucker_portrait.jpeg'
-import  cathrynPortrait from '../images/cathrynlyonss.jpeg'
+import cathrynPortrait from '../images/cathrynlyonss.jpeg'
 
 const pageheader =
 {
@@ -20,38 +20,36 @@ const Abigail =
 {
   name:"Abigail Bright",
   major:"Electrical Engineering: Computer Track",
-  portrait: pic
+  portrait: pic,
+  webPage: 'tucker'
+
 }
 
 const Tucker =
 {
   name: "Tucker Dickson",
   major:"Computer Science and Engineering",
-  portrait: tuckerPortrait
+  portrait: tuckerPortrait,
+  webPage: 'tucker',
 }
 
 const Cathryn =
 {
   name: "Cathryn Lyons",
   major:"Computer Science and Engineering",
-  portrait: cathrynPortrait
+  portrait: cathrynPortrait,
+  webPage: 'tucker'
 }
 
 const Ryan =
 {
   name: "Ryan Edwall",
   major: "Electrical Engineering: Computer Track",
-  portrait: ryanPortrait
+  portrait: ryanPortrait,
+  webPage: 'tucker'
 }
 
 const groupMembers = [Abigail,Tucker,Cathryn,Ryan]
-
-const imageStyle =
-{
-  borderRadius: "50%",
-  width: "50%",
-  height: "50%"
-}
 
 function MemberList(members)
 {
@@ -60,7 +58,9 @@ function MemberList(members)
       {
         members.groupMembers.map(memberInfo =>
           <th>
-            <img src = {memberInfo.portrait} style = {imageStyle} alt = {memberInfo.name}></img>
+            <a href={memberInfo.webPage}>
+            <img src = {memberInfo.portrait} class ="portraitImage"alt = {memberInfo.name}></img>
+            </a>
             <p>{memberInfo.name}</p>
             <p>{memberInfo.major}</p>
           </th>
@@ -69,6 +69,7 @@ function MemberList(members)
     </div>
   )
 }
+
 const displayMembers = <MemberList groupMembers = {groupMembers}/>
 const IndexPage = () => {
   return (
