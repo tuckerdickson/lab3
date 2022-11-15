@@ -38,7 +38,7 @@ const Cathryn =
   name: "Cathryn Lyons",
   major:"Computer Science and Engineering",
   portrait: cathrynPortrait,
-  webPage: 'tucker'
+  webPage: 'cathryn'
 }
 
 const Ryan =
