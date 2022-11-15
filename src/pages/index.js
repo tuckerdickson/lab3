@@ -3,7 +3,11 @@ import { render } from "react-dom";
 import '../fonts/stylesheet.css';
 import pic from  '../images/default_avatar.png'
 import ryanPortrait from '../images/ryan_portrait.jpg'
+<<<<<<< Updated upstream
 import tuckerPortrait from '../images/tucker_portrait.jpeg'
+=======
+import  cathrynPortrait from '../images/cathrynlyonss.jpeg'
+>>>>>>> Stashed changes
 
 const pageheader =
 {
@@ -28,7 +32,7 @@ const Cathryn =
 {
   name: "Cathryn Lyons",
   major:"Computer Science and Engineering",
-  portrait: pic
+  portrait: cathrynPortrait
 }
 
 const Ryan =
