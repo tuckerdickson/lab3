@@ -1,14 +1,8 @@
 import * as React from "react"
-import '../fonts/stylesheet.css';
-
-const pageheader =
-{
-  fontFamily: "UbuntuMono",
-}
 
 const TuckerPage = () => {
   return (
-    <main style = {pageheader}>
+    <main>
     <h1> This is Tucker's Page!</h1>
     </main>
   )

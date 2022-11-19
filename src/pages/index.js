@@ -50,7 +50,7 @@ const groupMembers = [Abigail,Tucker,Cathryn,Ryan]
 function MemberList(members)
 {
   return(
-    <div>
+    <div class = "members">
       {
         members.groupMembers.map(memberInfo =>
           <th>
@@ -65,10 +65,6 @@ function MemberList(members)
     </div>
   )
 }
-
-// blinking cursor code
-
-
 
 const displayMembers = <MemberList groupMembers = {groupMembers}/>
 const IndexPage = () => {
@@ -86,7 +82,6 @@ const IndexPage = () => {
     </main>
   )
 }
-
 
 export default IndexPage
 
