@@ -1,9 +1,9 @@
 import * as React from "react"
-import { render } from "react-dom";
 
 //importing stylesheets
 import '../fonts/stylesheet.css';
 import '../css/index.css';
+
 
 //importing images
 import pic from  '../images/default_avatar.png'
@@ -11,10 +11,6 @@ import ryanPortrait from '../images/ryan_portrait.jpg'
 import tuckerPortrait from '../images/tucker_portrait.jpeg'
 import cathrynPortrait from '../images/cathrynlyonss.jpeg'
 
-const pageheader =
-{
-  fontFamily: "UbuntuMono",
-}
 
 const Abigail =
 {
@@ -46,7 +42,7 @@ const Ryan =
   name: "Ryan Edwall",
   major: "Electrical Engineering: Computer Track",
   portrait: ryanPortrait,
-  webPage: 'tucker'
+  webPage: 'ryan'
 }
 
 const groupMembers = [Abigail,Tucker,Cathryn,Ryan]
@@ -70,15 +66,28 @@ function MemberList(members)
   )
 }
 
+// blinking cursor code
+
+
+
 const displayMembers = <MemberList groupMembers = {groupMembers}/>
 const IndexPage = () => {
   return (
-    <main style = {pageheader}>
-    <h1> Meet Control Alt Elite!</h1>
-    {displayMembers}
+    <main>
+      <div id="indexheader">
+        <h1> Meet Control Alt Elite
+        <span class="blink">_</span>
+        </h1>
+      </div>
+
+      <div class = "pageinfo">
+        {displayMembers}
+      </div>
     </main>
   )
 }
+
+
 export default IndexPage
 
 export const Head = () => <title>Home Page</title>
