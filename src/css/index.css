@@ -11,18 +11,21 @@
 }
 
 html{
-    background-color:#98c1d9;
+    background: url("../cathryn_images/whitewood.jpeg") repeat center center fixed;
     height: 100%;
 }
 body{
-    background: url("../images/woodBackground.jpg") no-repeat center center fixed;
+    /* background: url("../images/woodBackground.jpg") no-repeat center center fixed; */
+    height: 100%;
+    background-color: #98c1d9;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
     margin: auto;
-    background-size: 100% 100vh;;
+    background-size: 100% 100vh;
     display: flex;
     width: 85%;
     height: 100%;
@@ -31,13 +34,24 @@ body{
 }
 
 .pageinfo{
-
+    
 }
 
 .pagecontainer{
-
+    
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#background{
+    background-color: #98c1d9;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
 #indexheader{
     width: 50%;
     height: 60px;
