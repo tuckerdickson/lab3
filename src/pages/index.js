@@ -6,17 +6,17 @@ import '../css/index.css';
 
 
 //importing images
-import pic from  '../images/default_avatar.png'
 import ryanPortrait from '../images/ryan_portrait.jpg'
 import tuckerPortrait from '../images/tucker_portrait.jpeg'
 import cathrynPortrait from '../images/cathrynlyonss.jpeg'
+import abigailPortrait from '../images/abigail_portrait.jpeg'
 
 
 const Abigail =
 {
   name:"Abigail Bright",
   major:"Electrical Engineering: Computer Track",
-  portrait: pic,
+  portrait: abigailPortrait,
   webPage: 'tucker'
 
 }
@@ -71,7 +71,7 @@ const IndexPage = () => {
   return (
     <main>
       <div id="indexheader">
-        <h1> Meet Control Alt Elite
+        <h1> Meet Ctrl Alt Elite
         <span class="blink">_</span>
         </h1>
       </div>
