@@ -10,10 +10,16 @@ import cathrynPortrait from '../images/cathrynlyonss.jpeg'
 const CathrynPage = () => {
   return (
     <main>
+    <div id = "background">
+
     <a href="/">Back to Home Page</a>  
-    <h1> Cathryn</h1>
+    <p></p>
+    <div id="indexheader">
+    <h1>About Cathryn</h1>
+    </div>
+    
     <p>Hi, I'm Cathryn. I'm a senior, majoring in Computer Science and Engineering at the University of Iowa.</p>
-    <img src = {cathrynPortrait} height = "25%" width = "25%" alt = {cathrynPortrait}></img>
+    <img src = {cathrynPortrait} height = "25%" width = "25%"  alt = {cathrynPortrait} class = "center"></img>
 
     <h1>Pets</h1>
     <p>This is my puppy, Kona. She is an 8 month old, Australian Shepherd. </p>
@@ -28,11 +34,7 @@ const CathrynPage = () => {
 
     <h1>Fun Fact</h1>
     <p>&#x2022; My go to karoke song is <a href="https://youtu.be/idFJkZQmN38">Picture</a> by Kidrock ft. Sheryl Crow</p>
-
-    
-      
-    
-    
+    </div>
     </main>
   )
 }
