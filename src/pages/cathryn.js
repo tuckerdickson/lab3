@@ -1,10 +1,10 @@
 import * as React from "react"
 
 //importing images
-import kona1 from '../cathryn_images/KonaInCoat.jpeg'
-import kona2 from '../cathryn_images/KonaOnCouch.jpeg'
-import kona3 from '../cathryn_images/KonaOutside.jpeg'
-import kona4 from '../cathryn_images/KonaWithToy.jpeg'
+import kona1 from '../images/cathryn_images/KonaInCoat.jpeg'
+import kona2 from '../images/cathryn_images/KonaOnCouch.jpeg'
+import kona3 from '../images/cathryn_images/KonaOutside.jpeg'
+import kona4 from '../images/cathryn_images/KonaWithToy.jpeg'
 import cathrynPortrait from '../images/cathrynlyonss.jpeg'
 
 const CathrynPage = () => {

@@ -12,7 +12,7 @@
 }
 
 html{
-    background: url("../cathryn_images/whitewood.jpeg") repeat center center fixed;
+    background: url("../images/cathryn_images/whitewood.jpeg") repeat center center fixed;
     height: 100%;
 }
 
@@ -36,7 +36,7 @@ body{
 }
 
 .pageinfo{
-    padding-top: 5%;
+    text-align: center;
 }
 
 .pagecontainer{

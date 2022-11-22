@@ -51,6 +51,9 @@ function MemberList(members)
 {
   return(
     <div class = "members">
+      <div class = "members-message">
+        <h1>Our Members</h1>
+      </div>
       {
         members.groupMembers.map(memberInfo =>
           <th>
@@ -77,6 +80,15 @@ const IndexPage = () => {
       </div>
 
       <div class = "pageinfo">
+        <div class = "team-content">
+          <div class = "team-image">
+
+          </div>
+
+          <div class = "team-link">
+            <a href="/about">Learn More</a>  
+          </div>
+        </div>
         {displayMembers}
       </div>
     </main>
