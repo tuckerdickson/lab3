@@ -16,15 +16,21 @@ const Abigail =
 {
   name:"Abigail Bright",
   major:"Electrical Engineering: Computer Track",
+  skills:"Skills: Abigail's skills go here",
+  interests:"Interests: Abigail's interests go here",
+  contact:"Email: Abigail's email goes here",
   portrait: abigailPortrait,
-  webPage: 'tucker'
+  webPage:"tucker"
 
 }
 
 const Tucker =
 {
-  name: "Tucker Dickson",
-  major:"Computer Science and Engineering",
+  name: "Name: Tucker Dickson",
+  major:"Major: Computer Science and Engineering",
+  skills:"Skills: sinistromanual",
+  interests:"Interests: software design",
+  contact:"Email: nathan-dickson@uiowa.edu",
   portrait: tuckerPortrait,
   webPage: 'tucker',
 }
@@ -33,6 +39,9 @@ const Cathryn =
 {
   name: "Cathryn Lyons",
   major:"Computer Science and Engineering",
+  skills:"Skills: Cathryn's skills go here",
+  interests:"Interests: Cathryn's interests go here",
+  contact:"Email: Cathryn's email goes here",
   portrait: cathrynPortrait,
   webPage: 'cathryn'
 }
@@ -41,6 +50,9 @@ const Ryan =
 {
   name: "Ryan Edwall",
   major: "Electrical Engineering: Computer Track",
+  skills:"Skills: Ryan's skills go here",
+  interests:"Interests: Ryan's interests go here",
+  contact:"Email: Ryan's email goes here",
   portrait: ryanPortrait,
   webPage: 'ryan'
 }
@@ -50,21 +62,25 @@ const groupMembers = [Abigail,Tucker,Cathryn,Ryan]
 function MemberList(members)
 {
   return(
-    <div class = "members">
-      {
-        members.groupMembers.map(memberInfo =>
-          <th>
-            <a href={memberInfo.webPage}>
-            <img src = {memberInfo.portrait} class ="portraitImage" alt = {memberInfo.name}></img>
-            </a>
-            <p>{memberInfo.name}</p>
-            <p>{memberInfo.major}</p>
-          </th>
-          )
-      }
-    </div>
-  )
-}
+        <div class = "two-column-wrapper">
+        {
+            members.groupMembers.map(memberInfo =>
+                <>
+                    <div class = "about-photo">
+                        <img src={memberInfo.portrait} class="aboutImage" alt={memberInfo.name}></img>
+                    </div>
+
+                    <div class = "about-paragraph">
+                        <h1>{memberInfo.name}</h1>
+                        <h3>{memberInfo.major}</h3>
+                        <h3>{memberInfo.skills}</h3>
+                        <h3>{memberInfo.interests}</h3>
+                        <h3>{memberInfo.contact}</h3>
+                    </div>
+                </>
+        )}
+        </div>
+    )}
 
 const displayMembers = <MemberList groupMembers = {groupMembers}/>
 const IndexPage = () => {
