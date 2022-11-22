@@ -1,7 +1,7 @@
 import * as React from "react"
 
 //importing images
-import kona1 from '../cathryn_images/KonaInCoat.jpeg'
+import volleyball from '../abigail_images/volleyball.jpg'
 import kona2 from '../cathryn_images/KonaOnCouch.jpeg'
 import kona3 from '../cathryn_images/KonaOutside.jpeg'
 import kona4 from '../cathryn_images/KonaWithToy.jpeg'
@@ -27,7 +27,7 @@ const AbigailPage = () => {
     <p>&#x2022; Calligraphy</p>
     <p>&#x2022; Volleyball</p>
     <p>&#x2022; Being cute</p>
-    <img src = {kona1} height = "25%" width = "25%" alt = {kona1}></img>
+    <img src = {volleyball} height = "25%" width = "25%" alt = {volleyball}></img>
     <img src = {kona2} height = "25%" width = "25%" alt = {kona2}></img>
     <img src = {kona3} height = "25%" width = "25%" alt = {kona3}></img>
     <img src = {kona4} height = "25%" width = "25%" alt = {kona4}></img>
