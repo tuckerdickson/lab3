@@ -1,9 +1,70 @@
+/* Navbar */
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.left {
+    display: flex;
+
+}
+
+.navbar-wrapper > .left > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.navbar-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navbar-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navbar-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.navbar-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+/* Other */
 .portraitImage
 {
-    border-radius: 50%;
-    width:50%;
-    height: 50%;
+    margin-top: 20px;
+    border-radius: 25px;
+    width:200px;
+    height: 200px;
 }
+
+.aboutImage {
+    /* border-radius: 25px; */
+    width: 100%;
+    height: 100%;
+}
+
+.about-paragraph {
+    text-align: left;
+    padding-left: 5%;
+}
+
 .portraitImage:hover
 {
     opacity: 0.5;
@@ -11,12 +72,13 @@
 }
 
 html{
-    background: url("../cathryn_images/whitewood.jpeg") repeat center center fixed;
+    background: url("../images/cathryn_images/whitewood.jpeg") repeat center center fixed;
     height: 100%;
 }
+
 body{
     /* background: url("../images/woodBackground.jpg") no-repeat center center fixed; */
-    height: 100%;
+    min-height: 100%;
     background-color: #98c1d9;
 
     -webkit-background-size: cover;
@@ -26,32 +88,39 @@ body{
     position: relative;
     margin: auto;
     background-size: 100% 100vh;
-    display: flex;
+    /* display: flex; */
     width: 85%;
-    height: 100%;
     font-family:  "UbuntuMono";
     border-radius: 10px;
 }
 
 .pageinfo{
-    
+    text-align: center;
 }
 
-.pagecontainer{
-    
+.team-text {
+    padding-top: 1%;
+}
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 #background{
     background-color: #98c1d9;
     border-left: 5px solid black;
     border-right: 5px solid black;
 }
+
 #indexheader{
     width: 50%;
     height: 60px;
@@ -64,18 +133,19 @@ body{
     text-align: center;
     color: white;
 }
+
 .blink {
     animation: blink 1.1s linear infinite alternate;
-  }
-  @keyframes blink {
+}
+
+@keyframes blink {
     from {opacity: 1;}
     20% {opacity: 1;}
     28% {opacity: 0;}
     72% {opacity: 0;}
     80% {opacity: 1;}
     to {opacity: 1;}
-  }
-
+}
 
 
 
