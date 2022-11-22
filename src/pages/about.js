@@ -71,7 +71,7 @@ const IndexPage = () => {
   return (
     <main>
       <div id="indexheader">
-        <h1>Ctrl Alt Elite
+        <h1> About Us
         <span class="blink">_</span>
         </h1>
       </div>
@@ -85,4 +85,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home</title>
+export const Head = () => <title>About</title>
