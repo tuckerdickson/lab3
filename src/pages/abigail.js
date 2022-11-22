@@ -23,7 +23,7 @@ const AbigailPage = () => {
     <h1>Personal Interests</h1>
     <p>&#x2022; I play volleyball every chance I get</p>
     <p>&#x2022; I love Formula 1 (Forza Ferrari!)</p>
-    <p>&#x2022; I do calligraphy for fun in my free time</p>
+    <p>&#x2022; I practice calligraphy for fun in my free time</p>
     <div id="pics">
     <img src = {volleyball} height = "35%" width = "35%" alt = {volleyball}></img>
     <img src = {ferrari} height = "29%" width = "29%" alt = {ferrari}></img>
