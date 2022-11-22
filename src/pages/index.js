@@ -46,7 +46,7 @@ const Ryan =
   webPage: 'ryan'
 }
 
-const groupMembers = [Abigail,Tucker,Cathryn,Ryan]
+const groupMembers = [Abigail,Tucker,Ryan,Cathryn]
 
 function MemberList(members)
 {
