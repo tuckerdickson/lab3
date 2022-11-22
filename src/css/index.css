@@ -105,6 +105,8 @@ body{
 .two-column-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .center {
