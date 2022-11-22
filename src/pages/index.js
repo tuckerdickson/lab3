@@ -52,20 +52,20 @@ function MemberList(members)
 {
   return(
     <div class = "members">
-      <div class = "members-message">
-        <h1>Our Members</h1>
+      <div class = "two-column-wrapper">
+        {
+          members.groupMembers.map(memberInfo =>
+            <>
+              <div class = "member">
+                <a href={memberInfo.webPage}>
+                  <img src = {memberInfo.portrait} class = "portraitImage" alt = {memberInfo.name}></img>
+                </a>
+                <p>{memberInfo.name}</p>
+              </div>
+            </>
+            )
+        }
       </div>
-      {
-        members.groupMembers.map(memberInfo =>
-          <th>
-            <a href={memberInfo.webPage}>
-              <img src = {memberInfo.portrait} class = "portraitImage" alt = {memberInfo.name}></img>
-            </a>
-            <p>{memberInfo.name}</p>
-            <p>{memberInfo.major}</p>
-          </th>
-          )
-      }
     </div>
   )
 }
@@ -99,7 +99,7 @@ const IndexPage = () => {
       </div>
 
       <div class = "pageinfo">
-        <div class = "team-content">
+        {/* <div class = "team-content">
           <div class = "team-text">
             <h1>Our Team</h1>
           </div>
@@ -108,7 +108,7 @@ const IndexPage = () => {
               <img src = {groupPhoto} class = "portraitImage"></img>
             </a>
           </div>
-        </div>
+        </div> */}
         {displayMembers}
       </div>
     </main>

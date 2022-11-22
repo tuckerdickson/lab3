@@ -2,7 +2,9 @@
 .navbar-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .left {
@@ -46,9 +48,10 @@
 /* Other */
 .portraitImage
 {
+    margin-top: 20px;
     border-radius: 25px;
-    width:50%;
-    height: 50%;
+    width:200px;
+    height: 200px;
 }
 
 .aboutImage {
@@ -85,7 +88,7 @@ body{
     position: relative;
     margin: auto;
     background-size: 100% 100vh;
-    display: flex;
+    /* display: flex; */
     width: 85%;
     font-family:  "UbuntuMono";
     border-radius: 10px;
@@ -93,10 +96,6 @@ body{
 
 .pageinfo{
     text-align: center;
-}
-
-.pagecontainer{
-    
 }
 
 .team-text {
