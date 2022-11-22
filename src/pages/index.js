@@ -17,7 +17,7 @@ const Abigail =
   name:"Abigail Bright",
   major:"Electrical Engineering: Computer Track",
   portrait: abigailPortrait,
-  webPage: 'tucker'
+  webPage: 'abigail'
 
 }
 
