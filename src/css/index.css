@@ -1,3 +1,49 @@
+/* Navbar */
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left {
+    display: flex;
+
+}
+
+.navbar-wrapper > .left > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.navbar-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navbar-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navbar-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.navbar-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+/* Other */
 .portraitImage
 {
     border-radius: 25px;

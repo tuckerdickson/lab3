@@ -86,15 +86,33 @@ const displayMembers = <MemberList groupMembers = {groupMembers}/>
 const IndexPage = () => {
   return (
     <main>
-      <div id="indexheader">
-        <h1> About Us
-        <span class="blink">_</span>
-        </h1>
-      </div>
+        <div class="navbar-wrapper">
+            <div class="left">
+                <div class="navbar-link-wrapper">
+                    <a href="/">HOME</a>
+                </div>
+                
+                <div class="navbar-link-wrapper active-nav-link">
+                    <a href="/about">ABOUT</a>
+                </div>
+            </div>
 
-      <div class = "pageinfo">
-        {displayMembers}
-      </div>
+            <div class="right">
+                <div class="brand">
+                    <div>CTRL ALT ELITE</div>
+                </div>
+             </div>
+        </div>
+
+        <div id="indexheader">
+            <h1> About Us
+            <span class="blink">_</span>
+            </h1>
+        </div>
+
+        <div class = "pageinfo">
+            {displayMembers}
+        </div>
     </main>
   )
 }
