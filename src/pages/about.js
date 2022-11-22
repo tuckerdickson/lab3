@@ -55,7 +55,7 @@ function MemberList(members)
         members.groupMembers.map(memberInfo =>
           <th>
             <a href={memberInfo.webPage}>
-            <img src = {memberInfo.portrait} class ="portraitImage"alt = {memberInfo.name}></img>
+            <img src = {memberInfo.portrait} class ="portraitImage" alt = {memberInfo.name}></img>
             </a>
             <p>{memberInfo.name}</p>
             <p>{memberInfo.major}</p>

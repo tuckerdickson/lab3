@@ -10,6 +10,7 @@ import ryanPortrait from '../images/ryan_portrait.jpg'
 import tuckerPortrait from '../images/tucker_portrait.jpeg'
 import cathrynPortrait from '../images/cathrynlyonss.jpeg'
 import abigailPortrait from '../images/abigail_portrait.jpeg'
+import groupPhoto from '../images/group_photo.png'
 
 
 const Abigail =
@@ -58,7 +59,7 @@ function MemberList(members)
         members.groupMembers.map(memberInfo =>
           <th>
             <a href={memberInfo.webPage}>
-            <img src = {memberInfo.portrait} class ="portraitImage"alt = {memberInfo.name}></img>
+              <img src = {memberInfo.portrait} class = "portraitImage" alt = {memberInfo.name}></img>
             </a>
             <p>{memberInfo.name}</p>
             <p>{memberInfo.major}</p>
@@ -81,12 +82,13 @@ const IndexPage = () => {
 
       <div class = "pageinfo">
         <div class = "team-content">
-          <div class = "team-image">
-
+          <div class = "team-text">
+            <h1>Our Team</h1>
           </div>
-
-          <div class = "team-link">
-            <a href="/about">Learn More</a>  
+          <div class = "team-image">
+            <a href = "/about">
+              <img src = {groupPhoto} class = "portraitImage"></img>
+            </a>
           </div>
         </div>
         {displayMembers}

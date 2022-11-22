@@ -1,6 +1,6 @@
 .portraitImage
 {
-    border-radius: 50%;
+    border-radius: 25px;
     width:50%;
     height: 50%;
 }
@@ -18,7 +18,7 @@ html{
 
 body{
     /* background: url("../images/woodBackground.jpg") no-repeat center center fixed; */
-    height: 100%;
+    min-height: 100%;
     background-color: #98c1d9;
 
     -webkit-background-size: cover;
@@ -30,7 +30,6 @@ body{
     background-size: 100% 100vh;
     display: flex;
     width: 85%;
-    height: 100%;
     font-family:  "UbuntuMono";
     border-radius: 10px;
 }
@@ -41,6 +40,10 @@ body{
 
 .pagecontainer{
     
+}
+
+.team-text {
+    padding-top: 1%;
 }
 
 .center {
