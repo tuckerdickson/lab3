@@ -15,10 +15,10 @@ import abigailPortrait from '../images/abigail_portrait.jpeg'
 const Abigail =
 {
   name:"Abigail Bright",
-  major:"Electrical Engineering: Computer Track",
-  skills:"Skills: Abigail's skills go here",
-  interests:"Interests: Abigail's interests go here",
-  contact:"Email: Abigail's email goes here",
+  major:"Major: Electrical & Computer Engineering",
+  skills:"Skills: Antisinistromanual",
+  interests:"Interests: Software Engineering",
+  contact:"Email: abigail-bright@uiowa.edu",
   portrait: abigailPortrait,
   webPage:"tucker"
 
@@ -26,7 +26,7 @@ const Abigail =
 
 const Tucker =
 {
-  name: "Name: Tucker Dickson",
+  name: "Tucker Dickson",
   major:"Major: Computer Science and Engineering",
   skills:"Skills: sinistromanual",
   interests:"Interests: software design",
@@ -57,7 +57,7 @@ const Ryan =
   webPage: 'ryan'
 }
 
-const groupMembers = [Abigail,Tucker,Cathryn,Ryan]
+const groupMembers = [Abigail,Tucker,Ryan,Cathryn]
 
 function MemberList(members)
 {
