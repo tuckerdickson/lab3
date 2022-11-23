@@ -47,9 +47,22 @@
 
 /* Tucker */
 .content-tucker {
+    width: 70%;
     margin-left: 15%;
+    margin-top: 5%;
 }
 
+.skills-tucker {
+    margin-top: 10%;
+}
+
+.experience-tucker {
+    margin-top: 10%;
+}
+
+.contact-tucker {
+    margin-top: 10%;
+}
 
 /* Other */
 .portraitImage

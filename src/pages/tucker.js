@@ -39,20 +39,31 @@ const TuckerPage = () => {
         <div class = "about-tucker">
           <div class = "about-tucker-text">
             <h1>About Me</h1>
-            <p>Hi, I'm Tucker. I'm a senior, majoring in Computer Science and Engineering at the University of Iowa.</p>
+            <font size="+2">
+              <p>Hello! My name is Tucker Dickson and I'm a Computer Science & Engineering undergraudate at the University of Iowa.</p>
+            </font>
           </div>
         </div>
 
         <div class = "skills-tucker">
           <h1>Skills</h1>
+          <font size="+2">
+            <p>Hello! My name is Tucker Dickson and I'm a Computer Science & Engineering undergraudate at the University of Iowa.</p>
+          </font>
         </div>
     
         <div class = "experience-tucker">
           <h1>Professional Experience</h1>
+          <font size="+2">
+            <p>Hello! My name is Tucker Dickson and I'm a Computer Science & Engineering undergraudate at the University of Iowa.</p>
+          </font>
         </div>
 
         <div class = "contact-tucker">
-          <h1>Contact Me!</h1>
+          <h1>Connect With Me!</h1>
+          <font size="+2">
+            <p>Hello! My name is Tucker Dickson and I'm a Computer Science & Engineering undergraudate at the University of Iowa.</p>
+          </font>
         </div>
 
       </div>
