@@ -1,14 +1,14 @@
 import * as React from "react"
 
 //importing images
-import kona1 from '../cathryn_images/KonaInCoat.jpeg'
-import kona2 from '../cathryn_images/KonaOnCouch.jpeg'
-import kona3 from '../cathryn_images/KonaOutside.jpeg'
-import kona4 from '../cathryn_images/KonaWithToy.jpeg'
-import guam1 from '../cathryn_images/Guam1.jpg'
-import guam2 from '../cathryn_images/Guam2.jpg'
-import guam3 from '../cathryn_images/Guam3.jpg'
-import guam4 from '../cathryn_images/Guam4.jpg'
+import kona1 from '../images/cathryn_images/KonaInCoat.jpeg'
+import kona2 from '../images/cathryn_images/KonaOnCouch.jpeg'
+import kona3 from '../images/cathryn_images/KonaOutside.jpeg'
+import kona4 from '../images/cathryn_images/KonaWithToy.jpeg'
+import guam1 from '../images/cathryn_images/Guam1.jpg'
+import guam2 from '../images/cathryn_images/Guam2.jpg'
+import guam3 from '../images/cathryn_images/Guam3.jpg'
+import guam4 from '../images/cathryn_images/Guam4.jpg'
 import cathrynPortrait from '../images/cathrynlyonss.jpeg'
 
 const CathrynPage = () => {
