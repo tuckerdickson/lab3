@@ -40,7 +40,9 @@ const CathrynPage = () => {
     <h1>About Cathryn</h1>
     </div>
     
+    <center>
     <p>Hi, I'm Cathryn. I'm a senior, majoring in Computer Science and Engineering at the University of Iowa.</p>
+    </center>
     <img src = {cathrynPortrait} height = "25%" width = "25%"  alt = {cathrynPortrait} class = "center"></img>
     
     <center>
