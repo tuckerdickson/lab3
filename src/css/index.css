@@ -5,6 +5,7 @@
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: large;
 }
 
 .left {
@@ -38,11 +39,12 @@
 }
 
 .active-nav-link {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black;   
 }
 
 .active-nav-link a {
     color: black !important;
+    font-size: large;
 }
 
 /* Other */
@@ -50,8 +52,8 @@
 {
     margin-top: 20px;
     border-radius: 25px;
-    width:200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
 }
 
 .aboutImage {
@@ -117,8 +119,11 @@ body{
 
 #background{
     background-color: #98c1d9;
-    border-left: 5px solid black;
-    border-right: 5px solid black;
+    /* border-left: 5px solid black; */
+    /* border-right: 5px solid black; */
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: large;
 }
 
 #indexheader{
