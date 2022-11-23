@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Script } from "gatsby"
 
 //importing images
 
@@ -49,7 +50,7 @@ const TuckerPage = () => {
               <li>Low-level assembly languages like AVR Assembler Language</li>
               <li>Functional languages like Haskell</li>
             </ul> 
-            <p>All of these projects (and more) can be accessed on my <a href = "https://github.com/tuckerdickson" target = "_blank">Github</a> page!</p>
+            <p>All of these projects (and more) can be accessed on my <a href = "https://github.com/tuckerdickson" target = "_blank" rel="noreferrer">Github</a> page!</p>
           </font>
         </div>
     
@@ -69,24 +70,26 @@ const TuckerPage = () => {
           <h1>Connect With Me!</h1>
 
           <div class = "icons">
-            <a href = "https://twitter.com/DicksonTucker" target = "_blank">
+            <a href = "https://twitter.com/DicksonTucker" target = "_blank" rel="noreferrer">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
 
-            <a href = "https://www.instagram.com/tuckerdickson/?hl=en" target = "_blank">
+            <a href = "https://www.instagram.com/tuckerdickson/?hl=en" target = "_blank" rel="noreferrer">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
 
-            <a href = "http://www.linkedin.com/in/tucker-dickson-58526a1bb" target = "_blank">
+            <a href = "http://www.linkedin.com/in/tucker-dickson-58526a1bb" target = "_blank" rel="noreferrer">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
 
-            <a href = "https://github.com/tuckerdickson" target = "_blank">
+            <a href = "https://github.com/tuckerdickson" target = "_blank" rel="noreferrer">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </div>
         </div>
       </div>
+      <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+      <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
     </main>
   )
 }
