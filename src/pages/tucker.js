@@ -48,7 +48,13 @@ const TuckerPage = () => {
         <div class = "skills-tucker">
           <h1>Skills</h1>
           <font size="+2">
-            <p>Hello! My name is Tucker Dickson and I'm a Computer Science & Engineering undergraudate at the University of Iowa.</p>
+            <p>During my time at Iowa, I've gained experience creating software projects using...</p>
+            <ul>
+              <li>High-level, general-purpose languages like C, C++, Java, and Python</li>
+              <li>Low-level assembly languages like AVR Assembler Language</li>
+              <li>Functional languages like Haskell</li>
+            </ul> 
+            <p>All of these projects (and more) can be accessed on my <a href = "https://github.com/tuckerdickson">Github</a> page!</p>
           </font>
         </div>
     
