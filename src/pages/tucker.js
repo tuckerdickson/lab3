@@ -1,11 +1,6 @@
 import * as React from "react"
 
 //importing images
-import kona1 from '../images/cathryn_images/KonaInCoat.jpeg'
-import kona2 from '../images/cathryn_images/KonaOnCouch.jpeg'
-import kona3 from '../images/cathryn_images/KonaOutside.jpeg'
-import kona4 from '../images/cathryn_images/KonaWithToy.jpeg'
-import tucker_portrait from '../images/tucker_portrait.jpeg'
 
 const TuckerPage = () => {
   return (
@@ -39,7 +34,7 @@ const TuckerPage = () => {
         <div class = "about-tucker">
           <div class = "about-tucker-text">
             <h1>About Me</h1>
-            <font size="+2">
+            <font size="+1">
               <p>Hello! My name is Tucker Dickson and I'm a Computer Science & Engineering undergraudate at the University of Iowa.</p>
             </font>
           </div>
@@ -47,31 +42,50 @@ const TuckerPage = () => {
 
         <div class = "skills-tucker">
           <h1>Skills</h1>
-          <font size="+2">
+          <font size="+1">
             <p>During my time at Iowa, I've gained experience creating software projects using...</p>
             <ul>
               <li>High-level, general-purpose languages like C, C++, Java, and Python</li>
               <li>Low-level assembly languages like AVR Assembler Language</li>
               <li>Functional languages like Haskell</li>
             </ul> 
-            <p>All of these projects (and more) can be accessed on my <a href = "https://github.com/tuckerdickson">Github</a> page!</p>
+            <p>All of these projects (and more) can be accessed on my <a href = "https://github.com/tuckerdickson" target = "_blank">Github</a> page!</p>
           </font>
         </div>
     
         <div class = "experience-tucker">
           <h1>Professional Experience</h1>
-          <font size="+2">
-            <p>Hello! My name is Tucker Dickson and I'm a Computer Science & Engineering undergraudate at the University of Iowa.</p>
+          <h2>Internships</h2>
+          <font size="+1">
+            <p></p>
+          </font>
+          <h2>Assistantships</h2>
+          <font size="+1">
+            <p></p>
           </font>
         </div>
 
         <div class = "contact-tucker">
           <h1>Connect With Me!</h1>
-          <font size="+2">
-            <p>Hello! My name is Tucker Dickson and I'm a Computer Science & Engineering undergraudate at the University of Iowa.</p>
-          </font>
-        </div>
 
+          <div class = "icons">
+            <a href = "https://twitter.com/DicksonTucker" target = "_blank">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+
+            <a href = "https://www.instagram.com/tuckerdickson/?hl=en" target = "_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href = "http://www.linkedin.com/in/tucker-dickson-58526a1bb" target = "_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+
+            <a href = "https://github.com/tuckerdickson" target = "_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </div>
+        </div>
       </div>
     </main>
   )
