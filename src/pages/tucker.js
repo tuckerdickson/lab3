@@ -10,30 +10,51 @@ import tucker_portrait from '../images/tucker_portrait.jpeg'
 const TuckerPage = () => {
   return (
     <main>
-      <div id = "background">
+      <div class="navbar-wrapper">
+          <div class="left">
+              <div class="navbar-link-wrapper">
+                  <a href="/">HOME</a>
 
-        <a href="/">Back to Home Page</a>  
-        <p></p>
-        <div id="indexheader">
-        <h1>About Tucker</h1>
+              </div>
+              
+              <div class="navbar-link-wrapper">
+                  <a href="/about">ABOUT</a>
+              </div>
+          </div>
+
+          <div class="right">
+              <div class="brand">
+                  <div>CTRL ALT ELITE</div>
+              </div>
+          </div>
       </div>
-      
-      <p>Hi, I'm Tucker. I'm a senior, majoring in Computer Science and Engineering at the University of Iowa.</p>
-      <img src = {tucker_portrait} height = "25%" width = "25%" class = "center"></img>
 
-      <h1>Pets</h1>
-      <p>This is my puppy, Kona. She is an 8 month old, Australian Shepherd. </p>
-      <p>Her talents include:</p>
-      <p>&#x2022; Sitting</p>
-      <p>&#x2022; Sometimes laying</p>
-      <p>&#x2022; Being cute</p>
-      <img src = {kona1} height = "25%" width = "25%" alt = {kona1}></img>
-      <img src = {kona2} height = "25%" width = "25%" alt = {kona2}></img>
-      <img src = {kona3} height = "25%" width = "25%" alt = {kona3}></img>
-      <img src = {kona4} height = "25%" width = "25%" alt = {kona4}></img>
+      <div id="indexheader">
+        <h1>Tucker Dickson
+        <span class="blink">_</span>
+        </h1>
+      </div>
 
-      <h1>Fun Fact</h1>
-      <p>&#x2022; My go to karoke song is <a href="https://youtu.be/idFJkZQmN38">Picture</a> by Kidrock ft. Sheryl Crow</p>
+      <div class = "content-tucker">
+        <div class = "about-tucker">
+          <div class = "about-tucker-text">
+            <h1>About Me</h1>
+            <p>Hi, I'm Tucker. I'm a senior, majoring in Computer Science and Engineering at the University of Iowa.</p>
+          </div>
+        </div>
+
+        <div class = "skills-tucker">
+          <h1>Skills</h1>
+        </div>
+    
+        <div class = "experience-tucker">
+          <h1>Professional Experience</h1>
+        </div>
+
+        <div class = "contact-tucker">
+          <h1>Contact Me!</h1>
+        </div>
+
       </div>
     </main>
   )
