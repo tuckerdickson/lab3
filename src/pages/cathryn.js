@@ -73,7 +73,30 @@ const CathrynPage = () => {
     <img src = {guam2} height = "25%" width = "25%" alt = {guam2}></img>
     <img src = {guam3} height = "25%" width = "25%" alt = {guam3}></img>
     
+    <div class = "contact-tucker">
+          <h1>Connect With Me!</h1>
+
+          <div class = "icons">
+            <a href = "https://twitter.com/DicksonTucker" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+
+            <a href = "https://www.instagram.com/tuckerdickson/?hl=en" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href = "http://www.linkedin.com/in/tucker-dickson-58526a1bb" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+
+            <a href = "https://github.com/tuckerdickson" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </div>
+        </div>
     </div>
+    <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+    <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
     </main>
   )
 }
