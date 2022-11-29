@@ -43,9 +43,9 @@ const CathrynPage = () => {
     
     <center>
     <p>Hi, I'm Cathryn. I'm a senior, majoring in Computer Science and Engineering at the University of Iowa.</p>
+    <img src = {cathrynPortrait} height = "25%" width = "25%"  alt = {cathrynPortrait} class = "portraitImage"></img>
     </center>
-    <img src = {cathrynPortrait} height = "25%" width = "25%"  alt = {cathrynPortrait} class = "center"></img>
-    
+
     <h1>Pets</h1>
     <p>This is my puppy, Kona. She is an 8 month old, Australian Shepherd. </p>
     <p>Her talents include:</p>
