@@ -9,13 +9,31 @@ import abigailPortrait from '../images/abigail_portrait.jpeg'
 const AbigailPage = () => {
   return (
     <main>
-    <div id = "background">
+      <div class="navbar-wrapper">
+          <div class="left">
+              <div class="navbar-link-wrapper">
+                  <a href="/">HOME</a>
 
-    <a href="/">Back to Home Page</a>  
-    <p></p>
-    <div id="indexheader">
-    <h1>About Abigail</h1>
-    </div>
+              </div>
+              
+              <div class="navbar-link-wrapper">
+                  <a href="/about">ABOUT</a>
+              </div>
+          </div>
+
+          <div class="right">
+              <div class="brand">
+                  <div>CTRL ALT ELITE</div>
+              </div>
+          </div>
+      </div>
+
+
+      <div id="indexheader">
+        <h1>About Abigail
+        <span class="blink">_</span>
+        </h1>
+      </div>
     
     <p>Hi, I'm Abigail! I'm a senior majoring in Electrical and Computer Engineering at the University of Iowa.</p>
     <img src = {abigailPortrait} height = "25%" width = "25%"  alt = {abigailPortrait} class = "center"></img>
@@ -36,7 +54,7 @@ const AbigailPage = () => {
     <p>&#x2022; I once broke both of my wrists at the same time and had double hot pink casts</p>
     <p>&#x2022; My favorite animal is a stingray</p>
     <p>&#x2022; I come from a long line of Hawkeyes</p>
-    </div>
+    
     </main>
   )
 }
