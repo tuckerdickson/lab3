@@ -18,7 +18,7 @@ const CathrynPage = () => {
 
     <div class="navbar-wrapper">
           <div class="left">
-              <div class="navbar-link-wrapper active-nav-link">
+              <div class="navbar-link-wrapper">
                   <a href="/">HOME</a>
 
               </div>
