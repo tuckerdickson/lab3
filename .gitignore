@@ -1,5 +1,0 @@
-#ignores node_module files
-node_modules
-
-#ignores cache files
-.cache
