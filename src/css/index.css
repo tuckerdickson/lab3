@@ -68,7 +68,6 @@
 
 .icons {
     width: 32%;
-    padding-left: 34%;
     padding-bottom: 20px;
 }
 
@@ -97,10 +96,6 @@ ion-icon {
 .about-paragraph {
     text-align: left;
     padding-left: 5%;
-}
-
-.contact-tucker {
-    margin-top: 10%;
 }
 
 .portraitImage:hover
