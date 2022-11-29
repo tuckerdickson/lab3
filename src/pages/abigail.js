@@ -54,7 +54,33 @@ const AbigailPage = () => {
     <p>&#x2022; I once broke both of my wrists at the same time and had double hot pink casts</p>
     <p>&#x2022; My favorite animal is a stingray</p>
     <p>&#x2022; I come from a long line of Hawkeyes</p>
-    
+
+
+    <div class = "contact-abigail">
+          <h1>Connect With Me!</h1>
+
+          <div class = "icons">
+            <a href = "https://twitter.com/abbybright" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+
+            <a href = "https://www.instagram.com/abby.bright/?hl=en" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href = "http://www.linkedin.com/in/abbybrightt" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+
+            <a href = "https://github.com/abbybright" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+        <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
+      
+
     </main>
   )
 }
