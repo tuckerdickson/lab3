@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Script } from "gatsby"
 
 //importing images
 import kona1 from '../images/cathryn_images/KonaInCoat.jpeg'
