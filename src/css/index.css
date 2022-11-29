@@ -47,6 +47,38 @@
     font-size: large;
 }
 
+/* Tucker */
+.content-tucker {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.skills-tucker {
+    margin-top: 10%;
+}
+
+.experience-tucker {
+    margin-top: 10%;
+}
+
+.contact-tucker {
+    margin-top: 10%;
+}
+
+.icons {
+    width: 32%;
+    padding-left: 34%;
+    padding-bottom: 20px;
+}
+
+ion-icon {
+    color: black;
+    font-size: 32px;
+    padding-right: 20px;
+    align-self: center;
+}
+
 /* Other */
 .portraitImage
 {
