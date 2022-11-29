@@ -1,9 +1,10 @@
 import * as React from "react"
+import { Script } from "gatsby"
 
 //importing images
-import volleyball from '../abigail_images/volleyball.jpg'
-import calligraphy from '../abigail_images/calligraphy.jpg'
-import ferrari from '../abigail_images/ferrari2.jpeg'
+import volleyball from '../images/abigail_images/volleyball.jpg'
+import calligraphy from '../images/abigail_images/calligraphy.jpg'
+import ferrari from '../images/abigail_images/ferrari2.jpeg'
 import abigailPortrait from '../images/abigail_portrait.jpeg'
 
 const AbigailPage = () => {
@@ -57,10 +58,11 @@ const AbigailPage = () => {
 
 
     <div class = "contact-abigail">
+      <center>
           <h1>Connect With Me!</h1>
 
           <div class = "icons">
-            <a href = "https://twitter.com/abbybright" target = "_blank" rel="noreferrer">
+            <a href = "https://twitter.com/abbybrightt" target = "_blank" rel="noreferrer">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
 
@@ -68,7 +70,7 @@ const AbigailPage = () => {
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
 
-            <a href = "http://www.linkedin.com/in/abbybrightt" target = "_blank" rel="noreferrer">
+            <a href = "http://www.linkedin.com/in/abigailbright" target = "_blank" rel="noreferrer">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
 
@@ -76,6 +78,7 @@ const AbigailPage = () => {
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </div>
+          </center>
         </div>
         <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
         <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
