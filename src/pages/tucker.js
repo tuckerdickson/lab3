@@ -85,6 +85,10 @@ const TuckerPage = () => {
             <a href = "https://github.com/tuckerdickson" target = "_blank" rel="noreferrer">
               <ion-icon name="logo-github"></ion-icon>
             </a>
+
+            <a href = "mailto:nathan-dickson@uiowa.edu?">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
           </div>
         </div>
       </div>
