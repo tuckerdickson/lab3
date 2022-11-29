@@ -49,10 +49,10 @@ const Cathryn =
 const Ryan =
 {
   name: "Ryan Edwall",
-  major: "Electrical Engineering: Computer Track",
-  skills:"Skills: Ryan's skills go here",
-  interests:"Interests: Ryan's interests go here",
-  contact:"Email: Ryan's email goes here",
+  major: "Electrical and Computer Engineering",
+  skills: "Skills: Color Coordinating",
+  interests:"Interests: IoT Devices/Software Engineering",
+  contact:"Email: ryan-edwall@uiowa.edu",
   portrait: ryanPortrait,
   webPage: 'ryan'
 }
@@ -91,7 +91,7 @@ const IndexPage = () => {
                 <div class="navbar-link-wrapper">
                     <a href="/">HOME</a>
                 </div>
-                
+
                 <div class="navbar-link-wrapper active-nav-link">
                     <a href="/about">ABOUT</a>
                 </div>
