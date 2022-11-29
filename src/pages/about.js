@@ -39,9 +39,9 @@ const Cathryn =
 {
   name: "Cathryn Lyons",
   major:"Computer Science and Engineering",
-  skills:"Skills: Cathryn's skills go here",
-  interests:"Interests: Cathryn's interests go here",
-  contact:"Email: Cathryn's email goes here",
+  skills:"Skills: Chatting and distracting others",
+  interests:"Interests: Software Design and Machine Learning",
+  contact:"Email: cathryn-lyons@uiowa.edu",
   portrait: cathrynPortrait,
   webPage: 'cathryn'
 }
