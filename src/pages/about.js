@@ -16,7 +16,7 @@ const Abigail =
 {
   name:"Abigail Bright",
   major:"Major: Electrical & Computer Engineering",
-  skills:"Skills: Antisinistromanual",
+  skills:"Skills: Bringing snacks for everyone",
   interests:"Interests: Software Engineering",
   contact:"Email: abigail-bright@uiowa.edu",
   portrait: abigailPortrait,
