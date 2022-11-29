@@ -35,9 +35,11 @@ const AbigailPage = () => {
         <span class="blink">_</span>
         </h1>
       </div>
-    
-    <p>Hi, I'm Abigail! I'm a senior majoring in Electrical and Computer Engineering at the University of Iowa.</p>
-    <img src = {abigailPortrait} height = "25%" width = "25%"  alt = {abigailPortrait} class = "center"></img>
+      
+    <center>
+      <p>Hi, I'm Abigail! I'm a senior majoring in Electrical and Computer Engineering at the University of Iowa.</p>
+      <img src = {abigailPortrait} height = "25%" width = "25%"  alt = {abigailPortrait} class = "portraitImage"></img>
+    </center>
 
     <h1>Personal Interests</h1>
     <p>&#x2022; I play volleyball every chance I get</p>
