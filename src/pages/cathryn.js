@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Script } from "gatsby"
 
 //importing images
 import kona1 from '../images/cathryn_images/KonaInCoat.jpeg'
@@ -18,7 +19,7 @@ const CathrynPage = () => {
 
     <div class="navbar-wrapper">
           <div class="left">
-              <div class="navbar-link-wrapper active-nav-link">
+              <div class="navbar-link-wrapper">
                   <a href="/">HOME</a>
 
               </div>
@@ -45,14 +46,6 @@ const CathrynPage = () => {
     </center>
     <img src = {cathrynPortrait} height = "25%" width = "25%"  alt = {cathrynPortrait} class = "center"></img>
     
-    <center>
-    <p>cathryn-lyons@uiowa.edu</p>
-    </center>
-
-    <center>
-    <a href="https://www.linkedin.com/in/cathryn-lyons/" >LinkedIn</a>
-    </center>
-
     <h1>Pets</h1>
     <p>This is my puppy, Kona. She is an 8 month old, Australian Shepherd. </p>
     <p>Her talents include:</p>
@@ -73,7 +66,35 @@ const CathrynPage = () => {
     <img src = {guam2} height = "25%" width = "25%" alt = {guam2}></img>
     <img src = {guam3} height = "25%" width = "25%" alt = {guam3}></img>
     
+    <div class = "contact-tucker">
+        <center><h1>Connect With Me!</h1>
+          
+          <div class = "icons">
+            <a href = "https://twitter.com/CathrynLyonss" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+
+            <a href = "https://www.instagram.com/cathrynlyonss/" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href = "https://www.linkedin.com/in/cathryn-lyons/" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+
+            <a href = "https://github.com/Cathrynlyonss" target = "_blank" rel="noreferrer">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+
+            <a href = "mailto:cathryn-lyons@uiowa.edu?">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </div>
+          </center>
+        </div>
     </div>
+    <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+    <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
     </main>
   )
 }
