@@ -4,6 +4,28 @@ import { Script } from "gatsby"
 //importing images
 import tuckerPortrait from '../images/tucker_portrait.jpeg'
 
+import commentBox from 'commentbox.io';
+
+class PageWithComments extends React.Component {
+
+    componentDidMount() {
+
+        this.removeCommentBox = commentBox('5680389167251456-proj');
+    }
+
+    componentWillUnmount() {
+
+        this.removeCommentBox();
+    }
+
+    render() {
+
+        return (
+            <div className="commentbox" />
+        );
+    }
+}
+
 const TuckerPage = () => {
   return (
     <main>
@@ -104,6 +126,7 @@ const TuckerPage = () => {
       </div>
       <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
       <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
+      <PageWithComments />
     </main>
   )
 }
