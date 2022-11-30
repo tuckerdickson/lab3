@@ -2,6 +2,28 @@ import * as React from "react"
 import ryanPortrait from '../images/ryan_portrait.jpg'
 import { Script } from "gatsby"
 
+import commentBox from 'commentbox.io';
+
+class PageWithComments extends React.Component {
+
+    componentDidMount() {
+
+        this.removeCommentBox = commentBox('5680389167251456-proj');
+    }
+
+    componentWillUnmount() {
+
+        this.removeCommentBox();
+    }
+
+    render() {
+
+        return (
+            <div className="commentbox" />
+        );
+    }
+}
+
 const RyanPage = () => {
   return (
     <main>
@@ -77,6 +99,8 @@ const RyanPage = () => {
 
       <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
       <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
+    <h1> This is Ryan's Page!</h1>
+    <PageWithComments />
     </main>
   )
 }

@@ -12,6 +12,28 @@ import guam3 from '../images/cathryn_images/Guam3.jpg'
 import guam4 from '../images/cathryn_images/Guam4.jpg'
 import cathrynPortrait from '../images/cathrynlyonss.jpeg'
 
+import commentBox from 'commentbox.io';
+
+class PageWithComments extends React.Component {
+
+    componentDidMount() {
+
+        this.removeCommentBox = commentBox('5680389167251456-proj');
+    }
+
+    componentWillUnmount() {
+
+        this.removeCommentBox();
+    }
+
+    render() {
+
+        return (
+            <div className="commentbox" />
+        );
+    }
+}
+
 const CathrynPage = () => {
   return (
     <main>  
@@ -95,6 +117,8 @@ const CathrynPage = () => {
     </div>
     <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
     <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
+
+    <PageWithComments />
     </main>
   )
 }
